@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{4C1AA049-04F4-46B8-8042-C3706DDB630F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>VisualStudio2019用</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>.\dxlib</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalOptions>/FS %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>.\dxlib</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>.\dxlib</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalOptions>/FS %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>.\dxlib</AdditionalLibraryDirectories>
+    </Link>
+    <FxCompile>
+      <ShaderType>Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>3.0</ShaderModel>
+    </FxCompile>
+    <PostBuildEvent>
+      <Command>cd shader
+ShaderCompiler.exe /Tvs_5_0 SampleVS.fx
+ShaderCompiler.exe /Tps_5_0 SamplePS.fx
+ShaderCompiler.exe /Tvs_3_0 Sample2VS.fx
+ShaderCompiler.exe /Tps_3_0 Sample2PS.fx
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>.\dxlib</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalOptions>/FS %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>.\dxlib</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>.\dxlib</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalOptions>/FS %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>.\dxlib</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\プロジェクトに追加すべきファイル_VC用\DxLib.h" />
+    <ClInclude Include="src\Game\Object\Model\Boss.h" />
+    <ClInclude Include="src\Game\Object\Model\Goblin.h" />
+    <ClInclude Include="src\Game\Object\Model\HealItem.h" />
+    <ClInclude Include="src\Game\Object\Model\House.h" />
+    <ClInclude Include="src\Game\Object\Model\Model_2.h" />
+    <ClInclude Include="src\Game\Object\Model\Npc.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\Model\ShokeWave.h" />
+    <ClInclude Include="src\Game\Object\Model\TrapBall.h" />
+    <ClInclude Include="src\Game\Object\Model\Zonbie.h" />
+    <ClInclude Include="src\Game\Object\Stage\CheckArea\CheckArea.h" />
+    <ClInclude Include="src\Game\Object\Stage\MoveBlock\MoveBlock.h" />
+    <ClInclude Include="src\Game\Object\Stage\Npc_Sheltter\Npc_Sheltter.h" />
+    <ClInclude Include="src\Game\Object\Stage\TriggerArea\TriggerArea.h" />
+    <ClInclude Include="src\Game\Object\Stage\UpArea\UpArea.h" />
+    <ClInclude Include="src\System\AppendFunction.h" />
+    <ClInclude Include="src\Game\Object\Base.h" />
+    <ClInclude Include="src\Game\Object\BlockBase.h" />
+    <ClInclude Include="src\System\Effect.h" />
+    <ClInclude Include="src\Game\Object\Model\ModelBase.h" />
+    <ClInclude Include="src\Game\Scene\SceneNowLoading.h" />
+    <ClInclude Include="src\Game\Scene\SceneRule.h" />
+    <ClInclude Include="src\Game\Object\GoalArea.h" />
+    <ClInclude Include="src\Game\Object\Model\Model.h" />
+    <ClInclude Include="src\Game\Scene\SceneStage.h" />
+    <ClInclude Include="src\Game\Scene\SceneTitle.h" />
+    <ClInclude Include="src\Game\Object\SoundEffect.h" />
+    <ClInclude Include="src\Game\Object\Stage\StageBlock\StageBlock.h" />
+    <ClInclude Include="src\Game\Object\Camera.h" />
+    <ClInclude Include="src\Game\Game.h" />
+    <ClInclude Include="src\System\KeyInput.h" />
+    <ClInclude Include="src\Game\Main.h" />
+    <ClInclude Include="src\Game\Object\MapChip.h" />
+    <ClInclude Include="src\Game\Object\Model\Player.h" />
+    <ClInclude Include="src\System\Random.h" />
+    <ClInclude Include="src\Game\Object\Model\RedGoblin.h" />
+    <ClInclude Include="src\Game\Object\UserInterface.h" />
+    <ClInclude Include="src\System\Vector3.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Game\Object\Model\Boss.cpp" />
+    <ClCompile Include="src\Game\Object\Model\Goblin.cpp" />
+    <ClCompile Include="src\Game\Object\Model\Healtem.cpp" />
+    <ClCompile Include="src\Game\Object\Model\House.cpp" />
+    <ClCompile Include="src\Game\Object\Model\Model_2.cpp" />
+    <ClCompile Include="src\Game\Object\Model\Npc.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\Model\ShokeWave.cpp" />
+    <ClCompile Include="src\Game\Object\Model\TrapBall.cpp" />
+    <ClCompile Include="src\Game\Object\Model\Zonbie.cpp" />
+    <ClCompile Include="src\Game\Object\Stage\CheckArea\CheckArea.cpp" />
+    <ClCompile Include="src\Game\Object\Stage\MoveBlock\MoveBlock.cpp" />
+    <ClCompile Include="src\Game\Object\Stage\Npc_Sheltter\Npc_Sheltter.cpp" />
+    <ClCompile Include="src\Game\Object\Stage\TriggerArea\TriggerArea.cpp" />
+    <ClCompile Include="src\Game\Object\Stage\UpArea\UpArea.cpp" />
+    <ClCompile Include="src\System\AppendFunction.cpp" />
+    <ClCompile Include="src\Game\Object\Base.cpp" />
+    <ClCompile Include="src\Game\Object\BlockBase.cpp" />
+    <ClCompile Include="src\System\Effect.cpp" />
+    <ClCompile Include="src\Game\Object\Model\ModelBase.cpp" />
+    <ClCompile Include="src\Game\Scene\SceneNowLoading.cpp" />
+    <ClCompile Include="src\Game\Scene\SceneRule.cpp" />
+    <ClCompile Include="src\Game\Object\GoalArea.cpp" />
+    <ClCompile Include="src\Game\Object\Model\Model.cpp" />
+    <ClCompile Include="src\Game\Scene\SceneStage.cpp" />
+    <ClCompile Include="src\Game\Scene\SceneTitle.cpp" />
+    <ClCompile Include="src\Game\Object\SoundEffect.cpp" />
+    <ClCompile Include="src\Game\Object\Stage\StageBlock\StageBlock.cpp" />
+    <ClCompile Include="src\Game\Object\Camera.cpp" />
+    <ClCompile Include="src\Game\Game.cpp" />
+    <ClCompile Include="src\System\KeyInput.cpp" />
+    <ClCompile Include="src\Game\Main.cpp" />
+    <ClCompile Include="src\Game\Object\MapChip.cpp" />
+    <ClCompile Include="src\Game\Object\Model\Player.cpp" />
+    <ClCompile Include="src\System\Random.cpp" />
+    <ClCompile Include="src\Game\Object\Model\RedGoblin.cpp" />
+    <ClCompile Include="src\Game\Object\UserInterface.cpp" />
+    <ClCompile Include="src\System\Vector3.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shader\Sample2PS.fx">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">3.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="shader\Sample2VS.fx">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">3.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="shader\SamplePS.fx">
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="shader\SampleVS.fx">
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\Game\Object\Model\GoblinPos.inc" />
+    <None Include="src\Game\Object\Model\RedGoblinPos.inc" />
+    <None Include="src\Game\Object\Model\ZonbiePos.inc" />
+    <None Include="src\Game\Object\Stage\MoveBlock\MoveBlockEndPos.inc" />
+    <None Include="src\Game\Object\Stage\MoveBlock\MoveBlockStartPos.inc" />
+    <None Include="src\Game\Object\Stage\StageBlock\StageEndPos.inc" />
+    <None Include="src\Game\Object\Stage\StageBlock\StageStartPos.inc" />
+    <None Include="src\Game\Object\Stage\TriggerArea\TriggerAreaEndPos.inc" />
+    <None Include="src\Game\Object\Stage\TriggerArea\TriggerAreaStartPos.inc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

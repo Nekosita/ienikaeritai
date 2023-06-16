@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Game\Object">
+      <UniqueIdentifier>{795175f6-785f-484b-a54d-78c851652f4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{da7cbbc3-0d00-4947-99f7-b3aeddab8251}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Model">
+      <UniqueIdentifier>{546316c3-56c7-4c6a-b97e-119cee432ae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Shader">
+      <UniqueIdentifier>{5d696349-1998-4302-bbdf-b000ca4c611c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Stage">
+      <UniqueIdentifier>{0637e959-c0a1-460d-b42e-39e0f30d77c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Stage\StageBlock">
+      <UniqueIdentifier>{e5a49a5a-00a6-4185-b92e-20bddedad56c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Stage\UpArea">
+      <UniqueIdentifier>{7a1e61c1-0e34-48ef-8a84-72a00067b9ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Stage\TriggerArea">
+      <UniqueIdentifier>{3ccd265f-73e3-420d-923c-00e2d33dffea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Stage\MoveBlock">
+      <UniqueIdentifier>{cf9b7822-d5c4-4957-b942-8f40ff4aff85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Stage\CheckArea">
+      <UniqueIdentifier>{ced8c915-8396-471f-bf91-e21a367f1d42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Stage\Npc_Sheltter">
+      <UniqueIdentifier>{9537eff9-d40c-4352-a2c5-4c44dceba7c1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Game\Object\Camera.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\AppendFunction.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\プロジェクトに追加すべきファイル_VC用\DxLib.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\KeyInput.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\Random.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Main.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\Effect.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\Vector3.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Scene\SceneRule.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Scene\SceneTitle.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Scene\SceneNowLoading.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Scene\SceneStage.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\UserInterface.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\SoundEffect.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\Model\Model.h">
+      <Filter>Game\Object\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\Model\RedGoblin.h">
+      <Filter>Game\Object\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\Model\Player.h">
+      <Filter>Game\Object\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\BlockBase.h">
+      <Filter>Game\Object\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\GoalArea.h">
+      <Filter>Game\Object\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\MapChip.h">
+      <Filter>Game\Object\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\Model\ModelBase.h">
+      <Filter>Game\Object\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\Base.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\Stage\StageBlock\StageBlock.h">
+      <Filter>Game\Object\Stage\StageBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\Model\Npc.h">
+      <Filter>Game\Object\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\Model\Boss.h">
+      <Filter>Game\Object\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\Model\House.h">
+      <Filter>Game\Object\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\Model\Model_2.h">
+      <Filter>Game\Object\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\Stage\UpArea\UpArea.h">
+      <Filter>Game\Object\Stage\UpArea</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\Stage\TriggerArea\TriggerArea.h">
+      <Filter>Game\Object\Stage\TriggerArea</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\Model\Goblin.h">
+      <Filter>Game\Object\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\Stage\MoveBlock\MoveBlock.h">
+      <Filter>Game\Object\Stage\MoveBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\Model\TrapBall.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\Model\HealItem.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\Model\Zonbie.h">
+      <Filter>Game\Object\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\Stage\CheckArea\CheckArea.h">
+      <Filter>Game\Object\Stage\CheckArea</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\Stage\Npc_Sheltter\Npc_Sheltter.h">
+      <Filter>Game\Object\Stage\Npc_Sheltter</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\Model\ShokeWave.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Game\Object\Camera.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\AppendFunction.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\KeyInput.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\Random.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Main.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\Effect.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\Vector3.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Scene\SceneRule.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Scene\SceneTitle.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Scene\SceneNowLoading.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Scene\SceneStage.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\UserInterface.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\SoundEffect.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\Model\Model.cpp">
+      <Filter>Game\Object\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\Model\RedGoblin.cpp">
+      <Filter>Game\Object\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\Model\Player.cpp">
+      <Filter>Game\Object\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\BlockBase.cpp">
+      <Filter>Game\Object\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\GoalArea.cpp">
+      <Filter>Game\Object\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\MapChip.cpp">
+      <Filter>Game\Object\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\Model\ModelBase.cpp">
+      <Filter>Game\Object\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\Base.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\Stage\StageBlock\StageBlock.cpp">
+      <Filter>Game\Object\Stage\StageBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\Model\Npc.cpp">
+      <Filter>Game\Object\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\Model\Boss.cpp">
+      <Filter>Game\Object\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\Model\House.cpp">
+      <Filter>Game\Object\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\Model\Model_2.cpp">
+      <Filter>Game\Object\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\Stage\UpArea\UpArea.cpp">
+      <Filter>Game\Object\Stage\UpArea</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\Stage\TriggerArea\TriggerArea.cpp">
+      <Filter>Game\Object\Stage\TriggerArea</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\Model\Goblin.cpp">
+      <Filter>Game\Object\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\Stage\MoveBlock\MoveBlock.cpp">
+      <Filter>Game\Object\Stage\MoveBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\Model\TrapBall.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\Model\Healtem.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\Model\Zonbie.cpp">
+      <Filter>Game\Object\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\Stage\CheckArea\CheckArea.cpp">
+      <Filter>Game\Object\Stage\CheckArea</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\Stage\Npc_Sheltter\Npc_Sheltter.cpp">
+      <Filter>Game\Object\Stage\Npc_Sheltter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\Model\ShokeWave.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shader\Sample2PS.fx">
+      <Filter>Game\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\Sample2VS.fx">
+      <Filter>Game\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\SamplePS.fx">
+      <Filter>Game\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\SampleVS.fx">
+      <Filter>Game\Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\Game\Object\Stage\StageBlock\StageStartPos.inc">
+      <Filter>Game\Object\Stage\StageBlock</Filter>
+    </None>
+    <None Include="src\Game\Object\Stage\StageBlock\StageEndPos.inc">
+      <Filter>Game\Object\Stage\StageBlock</Filter>
+    </None>
+    <None Include="src\Game\Object\Model\RedGoblinPos.inc">
+      <Filter>Game\Object\Model</Filter>
+    </None>
+    <None Include="src\Game\Object\Stage\TriggerArea\TriggerAreaEndPos.inc">
+      <Filter>Game\Object\Stage\TriggerArea</Filter>
+    </None>
+    <None Include="src\Game\Object\Stage\TriggerArea\TriggerAreaStartPos.inc">
+      <Filter>Game\Object\Stage\TriggerArea</Filter>
+    </None>
+    <None Include="src\Game\Object\Model\GoblinPos.inc">
+      <Filter>Game\Object\Model</Filter>
+    </None>
+    <None Include="src\Game\Object\Stage\MoveBlock\MoveBlockEndPos.inc">
+      <Filter>Game\Object\Stage\MoveBlock</Filter>
+    </None>
+    <None Include="src\Game\Object\Stage\MoveBlock\MoveBlockStartPos.inc">
+      <Filter>Game\Object\Stage\MoveBlock</Filter>
+    </None>
+    <None Include="src\Game\Object\Model\ZonbiePos.inc">
+      <Filter>Game\Object\Model</Filter>
+    </None>
+  </ItemGroup>
+</Project>
